@@ -31,9 +31,42 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+###### home.html
+```
+<!-- myapp/templates/myapp/home.html -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My App Home</title>
+    <link rel="stylesheet" href="C:/Users/admin/Desktop/web_dev/bookcover/bcover/static/styles.css">
+</head>
+<body>
+    <h1>THE BOOK</h1>
+    <img src="C:/Users/admin/Desktop/web_dev/bookcover/bcover/static/images/bookcover.png" alt="Book Cover Image" style="height: 500px;" >
+    <p>An Anonymous Life story</p>
+</body>
+</html>
+```
+
+style.css
+```
+
+body {
+    background-color: #f0f0f0;
+    color: #870259;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #ff0090;
+}
+```
 
 ## OUTPUT:
+![image](https://github.com/user-attachments/assets/c13e1410-0331-40b5-93a3-567258c33ab3)
+
 
 
 ## RESULT:
